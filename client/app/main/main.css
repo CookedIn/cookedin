@@ -17,3 +17,5 @@ html,body{
 #main-nav a.contact { background: url("http://mypizzaoven.nl/wp-content/themes/ivana_template_v7/images/navi/i-contact.png") no-repeat; }
 #main-nav a.event { background: url("http://mypizzaoven.nl/wp-content/themes/ivana_template_v7/images/navi/i-event.png") no-repeat; }
 #main-nav a:hover { width: auto; }
+
+.container-table { top: 63px; left: 20px; position: fixed; z-index: 9999; }
