@@ -76,7 +76,7 @@ li {
 }
 
 .carousel-inner .item img {
-  width: 75%;
+  width: 50%;
   min-height: 50%;
   max-height: none;
 }
@@ -89,6 +89,7 @@ div img {
 } 
 
 .jobInfo {
+  float: left;
   padding-left: 2em;
 }
 
@@ -99,3 +100,4 @@ div img {
 #chalkboard {
     overflow : scroll;
 }
+
