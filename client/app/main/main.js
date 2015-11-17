@@ -3,6 +3,10 @@
 angular.module('cookedinApp')
   .config(function ($routeProvider) {
     $routeProvider
+      .when('/enter', {
+        templateUrl: 'app/main/enter.html',
+        controller: 'EnterCtrl'
+      })
       .when('/main', {
         templateUrl: 'app/main/main.html',
         controller: 'MainCtrl'
@@ -18,10 +22,6 @@ angular.module('cookedinApp')
       .when('/aboutus', {
         templateUrl: 'app/main/about.html',
         controller: 'AboutCtrl'
-      })
-      .when('/enter', {
-        templateUrl: 'app/main/enter.html',
-        controller: 'EnterCtrl'
       })
       .otherwise({
         redirectTo: '/main'
